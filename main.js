@@ -20,4 +20,5 @@ window.eventTitle = comments[0].author;
 document.getElementById('HCB_comment_box').style = "display: none";
 document.getElementById('event').innerHTML = event;
 document.getElementById('event-name').innerHTML = eventTitle;
+localStorage.event = event + ":" + eventTitle;
 }
