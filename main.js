@@ -15,5 +15,7 @@ document.getElementById('hcb_form_name').value = window.newEventName;
 document.getElementById("hcb_form_content").value = window.newEventContent;
 document.getElementById("hcb_submit").click();
 window.event = comments[0].comment;
-document.getElementById('event').value = event;
+window.eventTitle = comments[0].author
+document.getElementById('event').innerHTML = event;
+document.getElementById('event-title').innerHTML = eventTitle;
 }
