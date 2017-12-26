@@ -14,8 +14,10 @@ window.newEventContent = getQueryVariable('content')
 document.getElementById('hcb_form_name').value = window.newEventName;
 document.getElementById("hcb_form_content").value = window.newEventContent;
 document.getElementById("hcb_submit").click();
+document.getElementById('HCB_comment_box').style = "";
 window.event = comments[0].comment;
-window.eventTitle = comments[0].author
+window.eventTitle = comments[0].author;
+document.getElementById('HCB_comment_box').style = "display: none";
 document.getElementById('event').innerHTML = event;
 document.getElementById('event-title').innerHTML = eventTitle;
 }
