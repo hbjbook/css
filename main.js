@@ -32,8 +32,6 @@ if (localStorage.eventAll !== undefined) {
        setInterval(keepEvent, 0);
 }     
 
-if (document.getElementById('hcb_msg').innerHTML = "Thank you for commenting!" || "You must wait a few seconds between posting comments.") {
+if (document.getElementById('event-name').innerHTML !== localStorage.eventTitle; && document.getElementById('event').innerHTML !== localStorage.event;) {
        location.reload();
 }
-
-
