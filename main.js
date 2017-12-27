@@ -12,7 +12,7 @@ function addNewEvent() {
 window.newEventTime = getQueryVariable("time")
 window.newEventName = getQueryVariable('name')
 window.newEventContent = getQueryVariable('content')
-localStorage.eventTime - window.newEventTime;
+localStorage.eventTime = window.newEventTime;
 localStorage.event = window.newEventName;
 localStorage.eventTitle = window.newEventContent;
 localStorage.eventAll = localStorage.eventTitle + "," + localStorage.event;
