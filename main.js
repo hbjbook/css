@@ -22,3 +22,12 @@ document.getElementById('event').innerHTML = event;
 document.getElementById('event-name').innerHTML = eventTitle;
 localStorage.event = event + ":" + eventTitle;
 }
+
+function keepEvent() {
+       document.getElementById('event-name').innerHTML = eventTitle
+       document.getElementById('event').innerHTML = event
+}
+
+if (localStorage.event !== undefined) {
+       setInterval(keepEvent, 0);
+}      
