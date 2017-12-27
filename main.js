@@ -18,9 +18,9 @@ document.getElementById('HCB_comment_box').style = "";
 localStorage.event = comments[0].comment;
 localStorage.eventTitle = comments[0].author;
 document.getElementById('HCB_comment_box').style = "display: none";
-document.getElementById('event').innerHTML = event;
-document.getElementById('event-name').innerHTML = eventTitle;
-localStorage.eventAll = event + ":" + eventTitle;
+document.getElementById('event').innerHTML = localStorage.event;
+document.getElementById('event-name').innerHTML = localStorage.eventTitle;
+localStorage.eventAll = localStorage.eventTitle" + localStorage.event;
 }
 
 function keepEvent() {
