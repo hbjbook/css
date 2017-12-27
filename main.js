@@ -15,19 +15,19 @@ document.getElementById('hcb_form_name').value = window.newEventName;
 document.getElementById("hcb_form_content").value = window.newEventContent;
 document.getElementById("hcb_submit").click();
 document.getElementById('HCB_comment_box').style = "";
-window.event = comments[0].comment;
-window.eventTitle = comments[0].author;
+localStorage.event = comments[0].comment;
+localStorage.eventTitle = comments[0].author;
 document.getElementById('HCB_comment_box').style = "display: none";
 document.getElementById('event').innerHTML = event;
 document.getElementById('event-name').innerHTML = eventTitle;
-localStorage.event = event + ":" + eventTitle;
+localStorage.eventAll = event + ":" + eventTitle;
 }
 
 function keepEvent() {
-       document.getElementById('event-name').innerHTML = eventTitle
-       document.getElementById('event').innerHTML = event
+       document.getElementById('event-name').innerHTML = localStorage.eventTitle;
+       document.getElementById('event').innerHTML = localStorage.event;
 }
 
-if (localStorage.event !== undefined) {
+if (localStorage.eventAll !== undefined) {
        setInterval(keepEvent, 0);
 }      
