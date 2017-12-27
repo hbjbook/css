@@ -32,6 +32,6 @@ if (localStorage.eventAll !== undefined) {
        setInterval(keepEvent, 0);
 }     
 
-if (document.getElementById('event-name').innerHTML !== localStorage.eventTitle; && document.getElementById('event').innerHTML !== localStorage.event;) {
+if (document.getElementById('event-name').innerHTML !== localStorage.eventTitle && document.getElementById('event').innerHTML !== localStorage.event) {
        location.reload();
 }
