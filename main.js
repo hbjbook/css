@@ -20,7 +20,7 @@ localStorage.eventTitle = comments[0].author;
 document.getElementById('HCB_comment_box').style = "display: none";
 document.getElementById('event').innerHTML = localStorage.event;
 document.getElementById('event-name').innerHTML = localStorage.eventTitle;
-localStorage.eventAll = localStorage.eventTitle" + localStorage.event;
+localStorage.eventAll = localStorage.eventTitle + "," + localStorage.event;
 }
 
 function keepEvent() {
