@@ -9,22 +9,18 @@ function getQueryVariable(variable)
        return(false);
 }
 function addNewEvent() {
+window.newEventTime = getQueryVariable("time")
 window.newEventName = getQueryVariable('name')
 window.newEventContent = getQueryVariable('content')
-document.getElementById('hcb_form_name').value = window.newEventName;
-document.getElementById("hcb_form_content").value = window.newEventContent;
-document.getElementById("hcb_submit").click();
-document.getElementById('HCB_comment_box').style = "";
-localStorage.event = comments[0].comment;
-localStorage.eventTitle = comments[0].author;
-document.getElementById('HCB_comment_box').style = "display: none";
-document.getElementById('event').innerHTML = localStorage.event;
-document.getElementById('event-name').innerHTML = localStorage.eventTitle;
+localStorage.eventTime - window.newEventTime;
+localStorage.event = window.newEventName;
+localStorage.eventTitle = window.newEventContent;
 localStorage.eventAll = localStorage.eventTitle + "," + localStorage.event;
 }
 
 function keepEvent() {
        document.getElementById('event-name').innerHTML = localStorage.eventTitle;
+       document.getElementById('time').innerHTML = localStorage.eventTime;
        document.getElementById('event').innerHTML = localStorage.event;
 }
 
