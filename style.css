@@ -14,12 +14,14 @@ h5 {
 color: darkgray
 }
 
-.btn primary {
+.btn-primary {
 color: gray
 background-color: #168425
+border-radius: 12px;
 }
 
-.btn danger {
+.btn-danger {
 color: white
 background-color: #ff0000
+border-radius: 12px;
 }
