@@ -24,6 +24,12 @@ color: white;
 background-color: #ff0000;
 }
 
+
+.btn-warning {
+color: black;
+background-color: #fff205;
+}
+
 .btn-info {
   color: white;
   background-color: #a23bd6;
@@ -37,7 +43,7 @@ background-color: #ff0000;
     outline: none;
   }
 
-.btn-primary, .btn-danger, .btn-info {
+.btn-primary, .btn-danger, .btn-info, btn-warning {
   -webkit-transition-duration: 0.4s;
   border: none;
   padding: 6px 10px;
