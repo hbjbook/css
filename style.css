@@ -24,6 +24,14 @@ color: white;
 background-color: #ff0000;
 }
 
+.input-pr {
+    -webkit-transition: 0.9s ease-in-out;
+    border: none;
+    border-bottom: 4px solid #168425;
+    font-size: 20px;
+    outline: none;
+  }
+
 .btn-primary, .btn-danger {
   -webkit-transition-duration: 0.4s;
   border: none;
