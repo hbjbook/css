@@ -15,12 +15,12 @@ color: darkgray
 }
 
 .primary {
-background-color: darkgreen
+background-color: #168425
 color: gray
 }
 
 .danger {
-background-color: red
+background-color: #ff0000
 color: white
 }
 
