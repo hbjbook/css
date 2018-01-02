@@ -9,23 +9,29 @@
 <h5> Click each item to see how to use it </h5>
 <button class="btn-primary" onclick='showPrimaryButton()'>Primary Button</button>
 <button onclick='showDangerButton()'class="btn-danger">Danger Button</button>
+<button onclick='showInfoButton()'class="btn-info">Info Button</button>
 <input class="input-pr" value="Primary Input" onchange='showPrimaryInput()'></input>
   <h5 id="code" style="display: none;"></h5>
 </center>
 <script>
   function showDangerButton() {
     document.getElementById("code").style = 'display: block'; 
-    document.getElementById('code').innerHTML = 'apply the class-btn danger to a button';
+    document.getElementById('code').innerHTML = 'Apply the class-btn danger to a button to use.';
   }
   
   function showPrimaryButton() {
     document.getElementById("code").style = 'display: block'; 
-    document.getElementById('code').innerHTML = 'apply the class btn-primary to a button.';
+    document.getElementById('code').innerHTML = 'Apply the class btn-primary to a button to use.';
+  }
+  
+  function showInfoButton() {
+    document.getElementById("code").style = 'display: block'; 
+    document.getElementById('code').innerHTML = 'Apply the class btn-primary to a button to use.';
   }
   
   function showPrimaryInput() {
     document.getElementById("code").style = 'display: block'; 
-    document.getElementById('code').innerHTML = "apply the class input-pr to an input to use";
+    document.getElementById('code').innerHTML = "Apply the class input-pr to an input to use.";
   }
   </script>
 </body>
