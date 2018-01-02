@@ -13,11 +13,10 @@
 <button onclick='showWarningButton()'class="btn-warning">Warning Button</button>
 <input class="input-pr" value="Primary Input" onchange='showPrimaryInput()'></input>
   <h5 id="code" style="display: none;"></h5>
-  <h5 id="link" style="display: none">Add this to your head tag to add Phyllocrania CSS, add a link tag like this: <link rel='stylesheet' , next add the Phyllocrania CSS: add href='https://phyllocraniacss.netlify.com/style.css/' to your link tag finally, add crossorigin='anonymous'> to finish</h5>
-</center>
+  </center>
 <script>
   function linkCSS() {
-    document.getElementById("link").style = "display: block";
+    alert("Add this to your head tag to add Phyllocrania CSS, <link rel='stylesheet' href='https://phyllocraniacss.netlify.com/style.css/' crossorigin='anonymous'>");
   }
   function showDangerButton() {
     document.getElementById("code").style = 'display: block'; 
