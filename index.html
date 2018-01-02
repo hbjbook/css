@@ -7,9 +7,10 @@
 <center>
 <h1> Phyllocrania CSS </h1>
 <h5> Click each item to see how to use it </h5>
-<button class="btn-primary">Primary Button</button>
-<button class="btn-danger">Danger Button</button>
-<input class="input-pr" value="Primary Input"></input>
-<center>
+<button class="btn-primary" onclick='document.getElementById("code").style = "display: block; document.getElementById('code').innerHTML = <button class="btn-primary"></button>'>Primary Button</button>
+<button onclick='document.getElementById("code").style = "display: block; document.getElementById('code').innerHTML = <button class="btn-danger"></button>'class="btn-danger">Danger Button</button>
+<input class="input-pr" value="Primary Input" onchange='document.getElementById("code").style = "display: block; document.getElementById('code').innerHTML = <input class="input-pr"></input>'></input>
+  <h5 id="code" style="display: none;"></h5>
+</center>
 </body>
 </html>
