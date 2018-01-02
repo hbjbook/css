@@ -43,7 +43,7 @@ background-color: #fff205;
     outline: none;
   }
 
-.btn-primary, .btn-danger, .btn-info, btn-warning {
+.btn-primary, .btn-danger, .btn-info, .btn-warning {
   -webkit-transition-duration: 0.4s;
   border: none;
   padding: 6px 10px;
