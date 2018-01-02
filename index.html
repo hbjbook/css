@@ -5,7 +5,7 @@
 </head>
 <body>
 <center>
-<h1> Phyllocrania CSS </h1>
+<h1 onclick="linkCSS();"> Phyllocrania CSS </h1>
 <h5> Click each item to see how to use it </h5>
 <button class="btn-primary" onclick='showPrimaryButton()'>Primary Button</button>
 <button onclick='showDangerButton()'class="btn-danger">Danger Button</button>
@@ -15,6 +15,9 @@
   <h5 id="code" style="display: none;"></h5>
 </center>
 <script>
+  function linkCSS() {
+    document.getElementById("code").style = "display: block";
+    document.getElementById("code").innerHTML = 'Add this to your head tag to add Phyllocrania CSS, <link rel="stylesheet" href="https://https://phyllocraniacss.netlify.com/style.css/" crossorigin="anonymous">'
   function showDangerButton() {
     document.getElementById("code").style = 'display: block'; 
     document.getElementById('code').innerHTML = 'Apply the class btn-danger to a button to use.';
