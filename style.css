@@ -15,8 +15,13 @@ color: darkgray;
 }
 
 .btn-primary {
-color: white;
-background-color: #168425;
+color: black;
+background-color: #2BFFC8;
+}
+
+.btn-success {
+  color: white;
+  background-color: #168425;
 }
 
 .btn-danger {
@@ -43,7 +48,7 @@ background-color: #fff205;
     outline: none;
   }
 
-.btn-primary, .btn-danger, .btn-info, .btn-warning {
+.btn-primary, .btn-danger, .btn-info, .btn-warning, .btn-success {
   -webkit-transition-duration: 0.4s;
   border: none;
   padding: 6px 10px;
