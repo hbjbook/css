@@ -17,21 +17,22 @@ color: darkgray;
 .btn-primary {
 color: gray;
 background-color: #168425;
-border-radius: 12px;
-border: none;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 50px;
 }
 
 .btn-danger {
 color: white;
 background-color: #ff0000;
-border-radius: 12px;
-border: none;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 50px;
+}
+
+.btn-primary, .btn-danger {
+  -webkit-transition-duration: 1s;
+  border: none;
+  padding: 6px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
 }
