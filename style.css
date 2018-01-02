@@ -14,12 +14,12 @@ h5 {
 color: darkgray
 }
 
-.primary {
+.btn primary {
 color: gray
 background-color: #168425
 }
 
-.danger {
+.btn danger {
 color: white
 background-color: #ff0000
 }
