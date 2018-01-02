@@ -10,13 +10,19 @@
 <button class="btn-primary" onclick='showPrimaryButton()'>Primary Button</button>
 <button onclick='showDangerButton()'class="btn-danger">Danger Button</button>
 <button onclick='showInfoButton()'class="btn-info">Info Button</button>
+<button onclick='showWarningButton()'class="btn-warning">Warning Button</button>
 <input class="input-pr" value="Primary Input" onchange='showPrimaryInput()'></input>
   <h5 id="code" style="display: none;"></h5>
 </center>
 <script>
   function showDangerButton() {
     document.getElementById("code").style = 'display: block'; 
-    document.getElementById('code').innerHTML = 'Apply the class-btn danger to a button to use.';
+    document.getElementById('code').innerHTML = 'Apply the class btn-danger to a button to use.';
+  }
+  
+   function showWarningButton() {
+    document.getElementById("code").style = 'display: block'; 
+    document.getElementById('code').innerHTML = 'Apply the class btn-warning to a button to use.';
   }
   
   function showPrimaryButton() {
@@ -26,7 +32,7 @@
   
   function showInfoButton() {
     document.getElementById("code").style = 'display: block'; 
-    document.getElementById('code').innerHTML = 'Apply the class btn-primary to a button to use.';
+    document.getElementById('code').innerHTML = 'Apply the class btn-info to a button to use.';
   }
   
   function showPrimaryInput() {
