@@ -24,6 +24,11 @@ color: white;
 background-color: #ff0000;
 }
 
+.btn-info {
+  color: white;
+  background-color: #a23bd6;
+}
+
 .input-pr {
     -webkit-transition: 0.9s ease-in-out;
     border: none;
@@ -32,7 +37,7 @@ background-color: #ff0000;
     outline: none;
   }
 
-.btn-primary, .btn-danger {
+.btn-primary, .btn-danger, .btn-info {
   -webkit-transition-duration: 0.4s;
   border: none;
   padding: 6px 10px;
