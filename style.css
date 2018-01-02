@@ -1,0 +1,31 @@
+.h1 {
+color: lightgray
+}
+
+.h2 {
+color: gray
+}
+.h5 {
+color: darkgray
+}
+
+.primary {
+background-color: darkgreen
+color: gray
+}
+
+.danger {
+background-color: red
+color: white
+}
+
+
+.primary, .danger {
+  -webkit-transition-duration: 1s;
+  border: none;
+  padding: 10px 10px;
+  margin: 3px;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+}
