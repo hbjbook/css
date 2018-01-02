@@ -1,5 +1,5 @@
 h1 {
-color: lightgray
+color: lightgray;
 }
 
 
@@ -8,20 +8,20 @@ body {
 }
 
 h2 {
-color: gray
+color: gray;
 }
 h5 {
-color: darkgray
+color: darkgray;
 }
 
 .btn-primary {
-color: gray
-background-color: #168425
+color: gray;
+background-color: #168425;
 border-radius: 12px;
 }
 
 .btn-danger {
-color: white
-background-color: #ff0000
+color: white;
+background-color: #ff0000;
 border-radius: 12px;
 }
