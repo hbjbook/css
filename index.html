@@ -11,6 +11,7 @@
 <button onclick='showDangerButton()'class="btn-danger">Danger Button</button>
 <button onclick='showInfoButton()'class="btn-info">Info Button</button>
 <button onclick='showWarningButton()'class="btn-warning">Warning Button</button>
+<button onclick='showSuccessButton()'class="btn-success">Success Button</button>
 <input class="input-pr" value="Primary Input" onchange='showPrimaryInput()'></input>
   <h5 id="code" style="display: none;"></h5>
   </center>
@@ -21,6 +22,11 @@
   function showDangerButton() {
     document.getElementById("code").style = 'display: block'; 
     document.getElementById('code').innerHTML = 'Apply the class btn-danger to a button to use.';
+  }
+  
+   function showSuccessButton() {
+    document.getElementById("code").style = 'display: block'; 
+    document.getElementById('code').innerHTML = 'Apply the class btn-success to a button to use.';
   }
   
    function showWarningButton() {
