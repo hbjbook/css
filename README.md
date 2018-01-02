@@ -1,3 +1,3 @@
-# Phyllocrania Calendar
+# Phyllocrania CSS
 
-Beta Release of calendar
+Modern, Flat and easy to use CSS
